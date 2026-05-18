@@ -1,0 +1,25 @@
+mejora la base inicial que te di y integra esto, también dale un css que sea agradable para el usuario y sea legible y moderno además los contenidos sean adaptables a las pantallas como teléfonos y otros dispositivos y tenga transiciones;
+_____________________________________________________________________________________________
+Seccion de Tipos de Paquetes / Servicios
+Mostrar un minimo de cuatro tipos de servicios que ofrece la agencia. Ejemplos sugeridos:
+- Paquetes Todo Incluido
+- Cruceros
+- Viajes de Egresados
+- Turismo de Aventura
+Cada servicio debe mostrar un icono o imagen, un titulo y una descripcion breve.
+
+Seccion de Testimonios
+- Minimo tres testimonios de clientes.
+- Cada testimonio debe incluir nombre del cliente, texto del comentario y calificacion (puede 
+representarse con caracteres o texto).
+Seccion Por que Elegirnos
+- Minimo tres argumentos destacados: experiencia, atencion personalizada, mejores precios, 
+u otros.
+
+
+Footer
+- Nombre de la agencia y slogan.
+- Links de navegacion rapida.
+- Datos de contacto ficticios: email, telefono y WhatsApp.
+- Links a redes sociales (pueden ser placeholders).
+- Ano de copyright.

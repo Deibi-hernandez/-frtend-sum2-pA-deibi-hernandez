@@ -1,0 +1,178 @@
+:root {
+    --bg-dark: #0d1b2a;
+    --primary: #3b82f6;
+    --soft-primary: #e0f2fe;
+    --text-light: #f8fafc;
+    --text-muted: #cbd5e1;
+    --card-bg: #ffffff;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    margin: 0;
+    font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    background: #f8fafc;
+    color: #14213d;
+  }
+  
+  header {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+  }
+  
+  .navbar {
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .hero-section {
+    background: linear-gradient(135deg, rgba(59,130,246,0.9), rgba(14,165,233,0.9));
+    color: #fff;
+    min-height: 80vh;
+  }
+  
+  .hero-section .eyebrow {
+    text-transform: uppercase;
+    letter-spacing: 0.14em;
+    opacity: 0.9;
+    margin-bottom: 1rem;
+  }
+  
+  .hero-card {
+    background: rgba(255,255,255,0.12);
+    backdrop-filter: blur(8px);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .hero-card:hover {
+    transform: translateY(-6px);
+  }
+  
+  .section {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+  
+  .section-header {
+    max-width: 680px;
+    margin: 0 auto 2rem auto;
+  }
+  
+  .section-label {
+    display: inline-block;
+    margin-bottom: 0.75rem;
+    padding: 0.35rem 0.95rem;
+    border-radius: 999px;
+    background: var(--soft-primary);
+    color: var(--primary);
+    font-size: 0.85rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+  
+  .feature-card,
+  .info-card,
+  .testimonial-card {
+    background: #fff;
+    border-radius: 1.25rem;
+    border: 1px solid rgba(15, 23, 42, 0.08);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+  }
+  
+  .feature-card:hover,
+  .info-card:hover,
+  .testimonial-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 24px 50px rgba(15, 23, 42, 0.08);
+  }
+  
+  .feature-icon {
+    width: 3.2rem;
+    height: 3.2rem;
+    border-radius: 1rem;
+    display: grid;
+    place-items: center;
+    font-size: 1.5rem;
+    background: rgba(59, 130, 246, 0.12);
+    color: var(--primary);
+    margin-bottom: 1rem;
+  }
+  
+  .feature-card h5,
+  .info-card h5 {
+    margin-bottom: 0.75rem;
+    font-weight: 700;
+  }
+  
+  .testimonial-card {
+    min-height: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .testimonial-card p {
+    margin-bottom: 1.25rem;
+    line-height: 1.8;
+    color: #334155;
+  }
+  
+  .testimonial-author {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #0f172a;
+    font-weight: 600;
+  }
+  
+  footer {
+    background: var(--bg-dark);
+    color: var(--text-light);
+  }
+  
+  footer h5,
+  footer h6 {
+    color: #fff;
+  }
+  
+  .footer-links a,
+  .social-links a {
+    color: var(--text-muted);
+    text-decoration: none;
+    transition: color 0.2s ease;
+  }
+  
+  .footer-links a:hover,
+  .social-links a:hover {
+    color: var(--primary);
+  }
+  
+  .footer-bottom {
+    color: rgba(255,255,255,0.65);
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  @media (max-width: 767px) {
+    .hero-section {
+      min-height: auto;
+      padding-top: 5rem;
+      padding-bottom: 3rem;
+    }
+  
+    .hero-card {
+      margin-top: 1.5rem;
+    }
+  }
